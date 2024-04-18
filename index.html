@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li><a href="">Inicio</a></li>
+            <li><a href="#info">Información</a></li>
+            <li><a href="#progra">Programación</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <header class="hero">
+        <div class="hero-texto">
+            <h1>Programación FrontEnd</h1>
+            <h2>Web de Programación</h2>
+            <link rel="stylesheet" href="estilo.css">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        </div>
+    </header>
+    <section class="info" id="info">
+        <div class="contenedor">
+            <h2 class="titulo">Información relevante</h2>
+            <p class="parrafo">Creada por Sebastián Rojas Poblete // sebastian.rojas147@inacapmail.cl</p>
+        </div>
+    </section>
+    <section class="contenedor" id="progra">
+        <h2 class="titulo">Programación Web</h2>
+        <div class="contenedor-card">
+            <article class="card">
+                <div class="margen-icon">
+                    <i class="bi bi-code-slash"></i>
+                </div>
+                <h3 class="titulo-card">HTML</h3>
+                <P>Aprende sobre HTML</P>
+                <a href="" class="boton">Leer más</a>
+            </article>
+ 
+            <article class="card">
+                <div class="margen-icon">
+                    <i class="bi bi-gem"></i>
+                </div>
+                <h3 class="titulo-card">JS</h3>
+                <P>Aprende sobre JavaScript</P>
+                <a href="" class="boton">Leer más</a>
+            </article>
+  
+            <article class="card">
+                <div class="margen-icon">
+                    <i class="bi bi-graph-up"></i>
+                </div>
+                <h3 class="titulo-card">CSS</h3>
+                <P>Aprende sobre CSS</P>
+                <a href="" class="boton">Leer más</a>
+            </article>
+        </div>
+    </section>
+
+    <section class="galeria" id="galeria">
+        <div class="contenedor">
+            <h2>Galería de Imágenes</h2>
+            <div class="contenedor-galeria">
+                <img src="img/img1.png" alt="">
+                <img src="img/img2.png" alt="">
+                <img src="img/img3.webp" alt="">
+                <img src="img/img4.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="contacto" id="contacto">
+        <div class="contenedor">
+            <h2 class="titulo">Formulario de Contacto</h2>
+            <form class="Formulario">
+                <input type="text" id="nombre" name="nombre" class="input input-ancho" placeholder="Ingresa nombre">
+                <input type="email" id="email" name="email" class="input input-ancho" placeholder="Ingresa email">
+                <textarea name="msj" id="email" class="input textarea-ancho" placeholder="Ingresa mensaje"  cols="30" rows="10">    
+                </textarea>
+                <input type="reset" value="Limpiar" class="boton input-ancho">
+                <input type="submit" value="Enviar" class="boton input-ancho">
+            </form>
+        </div>
+    </section>
+    <footer>
+        <!-- Poner sus datos personales, nombre, mail, fono, dirección. Deben añadir estilos y un icono al lado de cada dato -->
+    </footer>
+</body>
+</html>
